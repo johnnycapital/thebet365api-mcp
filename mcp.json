@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "thebet365api": {
+      "command": "npx",
+      "args": ["-y", "github:johnnycapital/thebet365api-mcp"],
+      "env": { "THEBET365API_KEY": "${THEBET365API_KEY}" }
+    }
+  }
+}

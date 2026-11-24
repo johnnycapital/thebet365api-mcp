@@ -1,0 +1,33 @@
+{
+  "name": "thebet365api-mcp",
+  "version": "0.1.0",
+  "description": "MCP server (stdio) for thebet365api.com: bet365 odds as JSON, US moneyline, spread and total plus European soccer. Coverage and a delayed preview need no key.",
+  "type": "module",
+  "bin": {
+    "thebet365api-mcp": "bin/thebet365api-mcp.js"
+  },
+  "main": "./src/server.js",
+  "exports": {
+    ".": "./src/server.js",
+    "./package.json": "./package.json"
+  },
+  "files": ["bin", "src", "README.md", "LICENSE"],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/",
+    "test:live": "THEBET365API_LIVE=1 node --test test/"
+  },
+  "keywords": ["mcp", "model context protocol", "mcp server", "bet365", "bet365 odds", "odds api", "sports odds", "sports betting data"],
+  "homepage": "https://thebet365api.com/docs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnnycapital/thebet365api-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/johnnycapital/thebet365api-mcp/issues"
+  },
+  "author": "Stunning Couches LLC",
+  "license": "MIT"
+}
