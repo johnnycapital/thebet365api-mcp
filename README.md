@@ -1,5 +1,7 @@
 # thebet365api-mcp
 
+[![thebet365api-mcp MCP server](https://glama.ai/mcp/servers/johnnycapital/thebet365api-mcp/badges/score.svg)](https://glama.ai/mcp/servers/johnnycapital/thebet365api-mcp)
+
 An MCP server for [thebet365api.com](https://thebet365api.com): bet365 odds as JSON for Claude, Cursor, VS Code and any other MCP client.
 
 - US games: moneyline, spread and total for the NFL, NBA, NHL, MLB, college football and college basketball, in season.
